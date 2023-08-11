@@ -8,4 +8,4 @@ Project ini dibuat untuk latihan kolaborasi MicroFrontend antara Angular dan Rea
 untuk port React yang di daftarkan `http://localhost:4204`, dengan filename `remoteEntry.js`, dan komponent yang di ekspos `web-components`.
 
 ## Further help
-Need Help ? contact me on `anwarfauzi2608@gmail.com`
+Need Help ? [Contact me](mailto:anwarfauzi2608@gmail.com)
