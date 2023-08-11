@@ -1,0 +1,10 @@
+{
+    "/api": {
+        "target": "https://demo-dcc.thinkspedia.id",
+        "secure": false
+    },
+    "/http": {
+        "target": "http://demo-dcc.thinkspedia.id",
+        "secure": false
+    }
+}
