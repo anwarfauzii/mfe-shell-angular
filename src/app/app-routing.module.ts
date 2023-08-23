@@ -7,7 +7,7 @@ const routes: Routes = [
     path: 'react',
     component: WebComponentWrapper,
     data: {
-      type: 'script',
+      type: 'manifest', // script | manifest | module
       remoteEntry: 'http://localhost:4204/remoteEntry.js',
       remoteName: 'react',
       exposedModule: './web-components',

@@ -6,8 +6,6 @@ import { AppComponent } from './app.component';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { ApiPrefixInterceptor } from 'src/@core/interceptors/http/api-prefix.interceptor';
 import { JwtInterceptor } from 'src/@core/interceptors/http/jwt.interceptor';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
 @NgModule({
   declarations: [
     AppComponent
@@ -15,7 +13,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    NgbModule,
     HttpClientModule,
     AppRoutingModule
   ],
